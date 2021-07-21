@@ -16,11 +16,25 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   height: 100vh;
   background-color: $Dark-cyan;
+
+  background-image: url("./svg/bg-pattern-top.svg"),
+    url("./svg/bg-pattern-bottom.svg");
+  background-position: -100% 170%, 180% -100%;
+  background-repeat: no-repeat;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/*
+.svg-bottom {
+  position: fixed;
+  right: -20%;
+  bottom: -100%;
+  z-index: -1;
+}
+*/
 .profile {
   background-color: rgb(255, 255, 255);
   border-radius: 0.5rem;
